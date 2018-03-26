@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(208, 208, 208);
+  width: 615px;
+  height: 315px;
+  font-family: 'Baskerville';
+}
+
+p {
+  font-size: 65%;
+}
+
+button {
+  background-color: rgb(96, 185, 128);
+  border-width: 2px;
+}
+
+.right-side {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 300px;
+  height: 300px;
+}
+
+.card1 {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(96, 185, 128);
+}
+
+.card2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(242, 162, 58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(65, 138, 191);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(224, 100, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card5 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(96, 185, 128);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card6 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(232, 113, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card7 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(65, 138, 191);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card8 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(232, 113, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-side {
+  color: rgb(234, 234, 226);
+}
+
+.left-side img {
+  height: 25px;
+  width: 25px;
+}
